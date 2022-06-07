@@ -1,0 +1,25 @@
+@import '../../../../styles/shared.scss';
+
+.search-container{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.162);
+    display: flex; align-items: center; justify-content: space-around;
+    padding: 5px 10px 10px 10px;
+
+    button{
+       border: none; color: $text-color; font-size: 1.25rem;
+       background: none; width: 10%; padding: .2rem 1rem .2rem 0.5rem;
+       background-color: #30414c; border-bottom-left-radius: 7px; border-top-left-radius: 7px;
+    }
+
+    input{
+        width: 90%;
+        margin-right: 1rem; padding: 0.5rem;
+        background-color: #30414c; color:white;
+        border: none; border-bottom-right-radius: 7px; border-top-right-radius: 7px;
+        &:focus{ outline: none; }
+    }
+
+    .green-left{
+        color: rgb(16, 162, 16);
+    }
+}

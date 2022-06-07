@@ -1,0 +1,8 @@
+
+
+.chat-body{
+    background-image: url('../../../../assets/chat-background.jpg');
+    height: calc(100vh - 7.5rem - 30px);
+    display: flex; flex-flow: column;
+    width: 100%;
+}

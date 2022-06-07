@@ -1,0 +1,37 @@
+@import '../../../../styles/shared.scss';
+
+.chat-profile{
+    display: flex; align-items: center;
+    padding: 15px; height: 2.5rem;
+    font-family: $font;
+    background-color: #202c33; color: $text-color;
+
+    .profile-picture{
+        font-size: 3rem;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    .user-chat-info{
+        padding-left: 1rem;
+
+        .user-name{
+            font-weight: bold;
+        }
+
+        .user-sub-title{
+            font-size: .8rem;
+        }
+    }
+
+    .chat-control{
+        width: 10%;
+        display: flex; justify-content: space-around;
+        margin-left: auto;
+        font-size: 1.5rem;
+    }
+
+    &:hover{ cursor: pointer;}
+}

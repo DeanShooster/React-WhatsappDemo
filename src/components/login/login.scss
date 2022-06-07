@@ -1,0 +1,55 @@
+@import '../../styles//shared.scss';
+
+.login-modal{
+    position: absolute;
+    width: 500px; min-height: 100px;
+    left: 50%; top: 30%; transform: translateX(-50%);
+    padding: 32px;
+    border: 4px double rgba(128, 128, 128, 0.436);
+    border-radius: 5px;  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.358);
+
+    @media(max-width:600px){
+        width: 300px;
+    }
+
+    form{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex; flex-flow: column;
+
+        label{
+            flex: 1;
+            font-weight: bold;
+            color: #464646;
+            display: flex; align-items: center;
+        }
+
+        input{
+            flex: 3;
+            padding: 0.35rem 0.35rem;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1.1rem;
+        }
+
+        div{
+            margin: 1rem 0;
+            display: flex;
+            align-items: stretch;
+        }
+
+        button{
+            margin: auto; width: 7rem;
+            padding: 1rem 2.5rem 1rem 2.5rem;
+            border: none; border-radius: 50px;
+            background-color: $theme-color;
+            color: white; font-size: 1.3rem;
+            display: flex; justify-content: center;
+
+            &:hover{
+                cursor: pointer;
+                color: $theme-color;
+                background-color: white; outline:$theme-color 3px solid;
+            }
+        }
+    }
+}

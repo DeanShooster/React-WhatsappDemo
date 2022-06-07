@@ -1,0 +1,27 @@
+@import '../../../../../styles/shared.scss';
+
+.message{
+    color: white;
+    font-family: $font;
+    border-radius: 10px;
+    min-width: 10%; max-width: 50%;
+    
+    p{ margin: 0; padding: 7px;}
+
+    .msg-time{
+        padding: 0;
+        text-align: right;
+        padding: 0 5px 5px 0;
+        font-size: .7rem;
+    }
+}
+
+.user-msg{
+    margin: 10px auto 0 60px;
+    background-color: $background-general;
+}
+
+.self-msg{
+    margin: 10px 60px 0 auto;
+    background-color: #005c4b;
+}

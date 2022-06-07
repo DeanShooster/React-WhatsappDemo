@@ -1,0 +1,32 @@
+@import '../../../../styles/shared.scss';
+
+.chat-input{
+    display: flex; align-items: center; justify-content: space-evenly;
+    background-color: #202c33; color:$text-color;
+    font-size: 1.75rem; font-family: $font;
+    padding: .75rem 0 .75rem 0;
+    position: absolute; bottom: 0; width: 100%;
+
+    .input-emoji-attach{
+        display: flex; align-items: center; justify-content: space-evenly;
+        width: 10%;
+        @media(max-width: 1000px){
+            width: 20%;
+        }
+    }
+    .emoji-attach-hover{ &:hover{cursor: pointer;}}
+
+    form{
+        width: 80%; padding-right: 20px;
+
+        @media(max-width: 1000px){
+            width: 60%;
+        }
+    }
+
+    input{
+        width: 100%;  height: 1.75rem; background-color: #30414c; color:white;
+        border: none; border-radius: 7px; padding: 0.5rem; font-size: 1rem;
+        &:focus{ outline: none; }
+    }
+}

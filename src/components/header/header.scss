@@ -1,0 +1,19 @@
+@import '../../styles//shared.scss';
+
+body{
+    margin: 0;
+}
+
+.header{
+    height: 5rem;
+    display: flex;  justify-content: space-between; align-items: center;
+    background: $theme-color;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+
+    font-family: 'Courier New', Courier, monospace;
+
+    h1{
+        color: white;
+        margin-left: 2rem;
+    }
+}
