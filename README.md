@@ -21,3 +21,5 @@ The application shows a basic login screen with redirection to the whats app mai
 -   [React-Icons](https://react-icons.github.io/react-icons/)
 
 <h2 align="center">Video</h2>
+
+https://user-images.githubusercontent.com/92792238/172319694-331051c1-4a14-4d8a-b4b6-cbcf59cb5cbd.mp4
